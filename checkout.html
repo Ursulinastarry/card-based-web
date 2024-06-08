@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products</title>
+  <link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <h1>Our Featured Products</h1>
+  <div class="product-container">
+    <div class="product-card">
+      <img src="1686392387913.jpg" alt="wall art Image">
+      <h2>Product 1 - wall art</h2>
+      <p>This is a great product you'll love! Price: $25</p>
+      <form action="buy.html" method="post">
+        <input type="hidden" name="product_id" value="1"> <select name="payment_method">
+          <option value="mpesa">M-Pesa</option>
+          <option value="credit_card">Credit Card</option>
+          <option value="cash_on_delivery">Cash on Delivery</option>
+        </select>
+        <button type="submit">Buy Now</button>
+      </form>
+    </div>
+    <div class="product-card">
+      <img src="becca-hair-salon.jpg" alt="salon set Image">
+      <h2>Product 2 - salon set</h2>
+      <p>Don't miss out on this amazing product! Price: $1000</p>
+      <form action="buy2.html" method="post">
+        <input type="hidden" name="product_id" value="2"> <select name="payment_method">
+          <option value="mpesa">M-Pesa</option>
+          <option value="credit_card">Credit Card</option>
+          <option value="cash_on_delivery">Cash on Delivery</option>
+        </select>
+        <button type="submit">Buy Now</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
